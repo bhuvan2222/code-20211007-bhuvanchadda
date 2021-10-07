@@ -9,7 +9,6 @@ for i in bmi_data:
     weight = i.get("WeightKg")
     height = i.get("HeightCm")
     height = (float)(height / 100)
-    print(height)
     bmi = weight/(height ** 2)
     i['BMI']= bmi
     if bmi <= 18.4:
