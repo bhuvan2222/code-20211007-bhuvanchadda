@@ -30,4 +30,4 @@ for i in bmi_data:
         i['Category'] = " Very severely obese"
         i['Health Risk'] = "Very high risk"
         
-print("BMI Data",bmi_data)    
+print(bmi_data)    
